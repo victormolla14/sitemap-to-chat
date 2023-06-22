@@ -1,7 +1,6 @@
 # main.py
 
 import os
-import gradio as gr
 from urllib.parse import urlparse
 from loader import DocumentLoader
 from retrieval_chain import RetrievalChainHandler
