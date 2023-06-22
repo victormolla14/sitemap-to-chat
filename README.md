@@ -30,7 +30,7 @@ Asegúrate de tener instalado Python 3.7 o superior en tu sistema. También nece
    ```
    Si el archivo `requirements.txt` no existe en el repositorio, tendrás que instalar las dependencias manualmente. Basándonos en el código proporcionado, estas son las dependencias necesarias:
    ```
-   pip install gradio nest_asyncio python-dotenv
+   pip install nest_asyncio python-dotenv
    ```
    Tienes que instalar la biblioteca `langchain` también. Como no está disponible públicamente, tendrás que instalarla manualmente o contactar al propietario del repositorio para obtener más información.
 
@@ -66,7 +66,6 @@ El código principal de la aplicación se encuentra en `main.py` y utiliza vario
 
 ```python
 import os
-import gradio as gr
 from urllib.parse import urlparse
 from loader import DocumentLoader
 from retrieval_chain import RetrievalChainHandler
